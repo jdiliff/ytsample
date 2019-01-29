@@ -7,20 +7,19 @@
     <title>Project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     
     <script src="script.js"></script>
-    <script src="https://apis.google.com/js/client.js?onload=onClientLoad" type="text/javascript"></script>
+    <script src="https://apis.google.com/js/client.js?onload=init" type="text/javascript"></script>
 
 </head>
 
 <body>
-   
-<input id="query" value='cats' type="text"/>
-        <button onclick="search()">Search</button>
+   <form action ="#">
+<input id="user-input" value='cats' type="text"/>
+        <button onClick="search()">Search</button>
         <pre id="response"></pre>
-
+    </form>
 </body>
 
 </html>
